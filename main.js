@@ -20,7 +20,6 @@ for (const img of images) {
     newElement.innerHTML = `<div class="slide"><img src="${img}" alt=""/></div>`
     sliderLine.append(newElement)
 }
-sliderLine.let
 offset = 0;
 const width = images.length * 300 - 300;
 
