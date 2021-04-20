@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: gray;
+    padding: 30px;
+}
+
+.slider {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    margin: 30px auto;
+    overflow: hidden;
+
+}
+
+.slider-line {
+    height: 300px;
+    width: 900px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+
+}
+
+.slide {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.slide img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
